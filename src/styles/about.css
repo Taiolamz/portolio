@@ -1,0 +1,20 @@
+body {
+  color: white;
+}
+
+.about {
+  position: relative;
+  left: 5rem;
+}
+.about h1 {
+  letter-spacing: 3px;
+}
+.about p {
+  letter-spacing: 2px;
+  line-height: 2rem;
+}
+.about span {
+  color: pink;
+  font-size: 10px;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=about.css.map */

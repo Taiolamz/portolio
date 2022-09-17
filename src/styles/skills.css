@@ -1,0 +1,69 @@
+.skills {
+  border-radius: 50%;
+  display: block;
+}
+.skills .icon-1 {
+  position: relative;
+  top: 22rem;
+  right: 9rem;
+  transition: 0.3s ease-in-out;
+}
+.skills .icon-1:hover {
+  content: "HTML";
+  color: #0074d9;
+  transform: scale(1.2);
+}
+.skills .icon-2 {
+  position: relative;
+  top: 17.5rem;
+  right: 5rem;
+  color: #748907 !important;
+  transition: 0.3s;
+}
+.skills .icon-2:hover {
+  transform: scale(1.2);
+}
+.skills .icon-3 {
+  position: relative;
+  top: 13rem;
+  right: 1rem;
+}
+.skills .icon-4 {
+  position: relative;
+  top: 9rem;
+  left: 3rem;
+}
+.skills .icon-5 {
+  position: relative;
+  top: 5rem;
+  left: 6rem;
+}
+.skills .left-icon {
+  position: relative;
+  top: 20rem;
+}
+.skills .left-icon .icon-10 {
+  position: relative;
+  top: -0.9rem;
+  left: 14rem;
+}
+.skills .left-icon .icon-9 {
+  position: relative;
+  top: 0.5rem;
+  left: 13rem;
+}
+.skills .left-icon .icon-8 {
+  position: relative;
+  top: 2.5rem;
+  left: 12rem;
+}
+.skills .left-icon .icon-7 {
+  position: relative;
+  top: 4rem;
+  left: 11rem;
+}
+.skills .left-icon .icon-6 {
+  position: relative;
+  top: 7rem;
+  left: 11rem;
+}/*# sourceMappingURL=skills.css.map */

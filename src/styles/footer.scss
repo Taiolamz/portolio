@@ -1,0 +1,15 @@
+.footer {
+  position: relative;
+  bottom: 25rem;
+  left: 40rem;
+}
+
+.icon {
+  cursor: pointer;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    transform: scale(1.13);
+  }
+
+}

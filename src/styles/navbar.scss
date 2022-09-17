@@ -1,0 +1,60 @@
+span {
+  color: #fff;
+}
+
+.harmburger {
+  background-color: #940a0a;
+  position: relative;
+  margin-left: 18rem;
+  bottom: 2rem;
+}
+// p
+
+.nav-bar {
+  font-size: 12px !important;
+  font-weight: 200;
+  background-color: transparent;
+
+  .nav-list .nav-link {
+    letter-spacing: 5px;
+    padding-right: 5px;
+    margin-right: 3rem;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      color: #8a3d54 !important;
+      font-weight: 500 !important;
+      transform: scale(1.2);
+    }
+
+  }
+  .nav-page {
+    color: #8a3d54 !important;
+    font-weight: 500;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+    border: 5px solid #8a3d54;
+    border-top: none;
+    padding: 0;
+    // width: 14%;
+    border-width: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 5px;
+  }
+
+  p {
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 14px;
+  }
+}
+
+  .nav-bar img {
+    width: 7%;
+    transition: 0.3s ease-in;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+}
