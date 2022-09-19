@@ -71,3 +71,79 @@
     }
   }
 }
+
+
+// RESPONSIVESS
+// MOBILE
+@media only screen and (max-width: 600px){
+  .skill-container {
+    position: relative;
+    bottom: 5 rem;
+    h2 {
+      font-size: 50px;
+      letter-spacing: 2px;
+      font-weight: 800;
+    }
+    .name {
+      color: rgb(147, 103, 111);
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  .skill {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    top: 3rem;
+    transition: 0.3s;
+  
+    h4 {
+      letter-spacing: 4px;
+    }
+    .skill-icon {
+      transition: 0.3s;
+  
+      &:hover {
+        transform: scale(1.25);
+      }
+    }
+  
+    .icon {
+      // background-color: #000345;
+      background-color: transparent;
+      width: 120%;
+      border-radius: 5px;
+      box-shadow: #000010 0px 12px 90px 12px;
+      transition: 0.3s ease-in-out;
+  
+      span {
+        letter-spacing: 2px;
+        animation: 10px forwards;
+        position: relative;
+        top: 10px;
+        font-size: 9px;
+      }
+  
+      &:hover {
+        color: #fff;
+        transform: scale(1.12);
+        background-color: #000345;
+        // background-color: transparent;
+  
+        span {
+          letter-spacing: 2px;
+        }
+      }
+  
+      .progress {
+        width: 80%;
+        height: 3px;
+        position: relative;
+        top: -16px;
+        left: 10px;
+        color: #e34c26 !important;
+      }
+    }
+  }
+  
+}

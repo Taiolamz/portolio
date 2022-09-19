@@ -4,7 +4,6 @@ import { Container, Row, Col } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import MenuBar from "./navbar";
 import Footer from "./footer";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -24,9 +23,10 @@ const About = () => {
                   A Creative and Confident Frontend Developer
                   <br /> with two years experience working with REACTJS, and{" "}
                   <br />
-                  other interesting frameworks. I have <br /> worked with
-                  several clients and organization in <br /> developing products
-                  that are top-notch. 
+                  other interesting frameworks. I have <br /> worked with a
+                  group of developers, product managers, project managers,
+                  several clients and organizations in <br /> developing
+                  products that are top-notch.
                 </p>
                 <p>I love NODEJS too..</p>
                 <p>
@@ -45,10 +45,9 @@ const About = () => {
             </Row>
           </Fade>
         </Container>
-        <br />
-        <br />
-        <br />
-        <Footer />
+        <div className="about-footer ">
+          <Footer />
+        </div>
       </div>
     </Fade>
   );

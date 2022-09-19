@@ -14,7 +14,7 @@ import MaketplaceImg from "../assets/maketplaceImg.png";
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
-import { Card, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import MenuBar from "./navbar";
 import { Fade } from "react-reveal";
 
@@ -37,6 +37,8 @@ const Projects = () => {
               style={{
                 "--swiper-navigation-color": "white",
                 "--swiper-pagination-color": "white",
+                "--swiper-navigation-size":"small"
+
               }}
               loop={true}
               spaceBetween={10}

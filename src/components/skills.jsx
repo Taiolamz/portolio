@@ -5,9 +5,6 @@ import {
   Row,
   Col,
   Progress,
-  Card,
-  CardTitle,
-  CardBody,
 } from "reactstrap";
 import {
   FaHtml5,

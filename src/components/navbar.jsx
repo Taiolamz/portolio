@@ -2,15 +2,11 @@ import React, { useState } from "react";
 import {
   Nav,
   Navbar,
-  NavbarBrand,
   NavbarToggler,
-  p,
   Collapse,
-  NavItem,
 } from "reactstrap";
 // import {useHistory} from 'react-router-dom';
 import Fade from "react-reveal/Fade";
-import HassanLogo from "../assets/hassan_logo.png";
 import "../styles/navbar.scss";
 import { useNavigate } from "react-router";
 

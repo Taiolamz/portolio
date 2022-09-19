@@ -12,53 +12,81 @@ import {
 } from "reactstrap";
 import MenuBar from "./navbar";
 import Fade from "react-reveal";
+import emailjs from "emailjs-com";
 // import MenuBar from "./navbar";
 
-const Contact = () => {
+function Contact() {
+  // const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_irow8ik",
+        "template_yqn5lck",
+        e.target,
+        "M2QqXCm8VY8KLPXAR"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    alert("Form submitted successfully");
+  };
+
   return (
-    <div>
+    <div className="contact">
       <MenuBar />
       <Fade left>
-        <Container className="form mt-1 p-5">
+        <Container className="mt-1 p-5">
           <Row>
             {/* <Col></Col/> */}
             <Col className="mt-5 connect">
-              <br />
-              <br />
+             
               <h1 className="mt-5 ">Hi there, Let's connect...</h1>
               <br />
               <br />
               <br />
               <p className="mt-5">
-                Copyright © 2022 HASSAN LAMIDI | All rights reserved |{" "}
+                Copyright © 2022 HASSAN LAMIDI | All rights reserved 08177135933
+                | 09087365217{" "}
                 <a color="red" href="/contact">
                   Contact
                 </a>
               </p>
             </Col>
+
             <Col>
               <Card className="contact-card p-5 mx-5 col-10">
-                <Form>
+                <Form onSubmit={sendEmail}>
                   <h3 className="text-center mb-5">GET IN TOUCH 🤝</h3>
                   <Row>
                     <Col>
-                      <Label for="first_name">First Name:</Label>
+                      <Label for="full_name">Full Name:</Label>
                       <span> *</span>
                       <Input
                         type="text"
-                        id="first_name"
-                        placeholder="Enter your first name"
+                        id="full_name"
+                        name="full_name"
+                        placeholder="Enter your full name"
                         required
                       />
                     </Col>
                     <Col>
-                      <Label for="last_name">Last Name:</Label>
+                      <Label for="tel">Phone number:</Label>
                       <span> *</span>
 
                       <Input
-                        type="text"
-                        id="last_name"
-                        placeholder="Enter your last name"
+                        type="tel"
+                        id="tel"
+                        name="tel"
+                        placeholder="Enter your phone number"
                         required
                       />
                     </Col>
@@ -75,14 +103,14 @@ const Contact = () => {
                     required
                   />
                   <br />
-                  <Label for="phone">Phone number:</Label>
+                  <Label for="subject">Subject:</Label>
                   <span> *</span>
 
                   <Input
-                    type="tel"
-                    placeholder="Enter your phone number"
-                    id="phone"
-                    name="phone "
+                    type="text"
+                    placeholder="Enter Subject"
+                    id="subject"
+                    name="subject"
                     required
                   />
                   <br />
@@ -108,6 +136,6 @@ const Contact = () => {
       </Fade>
     </div>
   );
-};
+}
 
 export default Contact;
