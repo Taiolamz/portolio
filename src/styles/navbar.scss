@@ -3,12 +3,11 @@ span {
 }
 
 .harmburger {
-  background-color: transparent;
+  background-color: white;
   position: relative;
   margin-left: 18rem;
   bottom: 2.5rem;
 }
-
 
 .nav-bar {
   font-size: 12px !important;
@@ -26,7 +25,6 @@ span {
       font-weight: 500 !important;
       transform: scale(1.2);
     }
-
   }
   .nav-page {
     color: #8a3d54 !important;
@@ -50,11 +48,11 @@ span {
   }
 }
 
-  .nav-bar img {
-    width: 7%;
-    transition: 0.3s ease-in;
+.nav-bar img {
+  width: 7%;
+  transition: 0.3s ease-in;
 
-    &:hover {
-      transform: scale(1.2);
-    }
+  &:hover {
+    transform: scale(1.2);
+  }
 }
