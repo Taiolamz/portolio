@@ -48,7 +48,6 @@ function Contact() {
           <Row>
             {/* <Col></Col/> */}
             <Col className="mt-5 connect">
-             
               <h1 className="mt-5 ">Hi there, Let's connect...</h1>
               <br />
               <br />
@@ -56,7 +55,10 @@ function Contact() {
               <p className="mt-5">
                 Copyright © 2022 HASSAN LAMIDI | All rights reserved 08177135933
                 | 09087365217{" "}
-                <a color="red" href="/contact">
+                <a
+                  color="red"
+                  href="mailto: hlamidi43@gmail.com?subject = Feedback&body = Message"
+                >
                   Contact
                 </a>
               </p>

@@ -3,10 +3,14 @@ span {
 }
 
 .harmburger {
-  background-color: white;
+  color: white;
   position: relative;
   margin-left: 18rem;
   bottom: 2.5rem;
+}
+
+.navbar-toggler-icon {
+  color: red !important;
 }
 
 .nav-bar {
