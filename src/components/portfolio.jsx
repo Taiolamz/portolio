@@ -81,7 +81,7 @@ const Projects = () => {
                   <p>
                     <a
                       target="_blank"
-                      href="https://630b75f9a0b05a54757bbe50--mance.netlify.app/"
+                      href="https://mance.io"
                     >
                       click here to view
                     </a>
