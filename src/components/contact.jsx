@@ -47,6 +47,7 @@ function Contact() {
         <Container className="mt-1 p-5">
           <Row>
             {/* <Col></Col/> */}
+{/*             connection-wrap */}
             <Col className="mt-5 connect">
               <h1 className="mt-5 ">Hi there, Let's connect...</h1>
               <br />
