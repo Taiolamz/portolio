@@ -53,7 +53,7 @@ function Contact() {
               <br />
               <br />
               <p className="mt-5">
-                Copyright © 2022 HASSAN LAMIDI | All rights reserved 08177135933
+                Copyright © 2021 HASSAN LAMIDI | All rights reserved 08177135933
                 | 09087365217{" "}
                 <a
                   color="red"
